@@ -36,3 +36,7 @@ print("Sum: ", sum(num_array))
 
 # Print the product of the numbers
 print("Product: ", product(num_array))
+
+# Print the numbers in reverse order
+print("Reverse Order: ", reverse(num_array))
+
