@@ -16,6 +16,12 @@ def product(arr):
         product *= num
     return product
 
+def reverse(arr):
+    """
+    Reverse an array of numbers using list slice notation
+    """
+    return arr[::-1]
+
 # Prompt user to enter a list of numbers separated by spaces
 input_string = input("enter a list of numbers separated by spaces: ")
 
@@ -30,3 +36,7 @@ print("Sum: ", sum(num_array))
 
 # Print the product of the numbers
 print("Product: ", product(num_array))
+
+# Print the numbers in reverse order
+print("Reverse Order: ", reverse(num_array))
+
