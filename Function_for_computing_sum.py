@@ -22,6 +22,9 @@ def reverse(arr):
     """
     return arr[::-1]
 
+"""
+Maybe I should add a sweet reverse function here
+"""
 # Prompt user to enter a list of numbers separated by spaces
 input_string = input("enter a list of numbers separated by spaces: ")
 
