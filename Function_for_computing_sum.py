@@ -15,3 +15,18 @@ def product(arr):
     for num in arr:
         product *= num
     return product
+
+# Prompt user to enter a list of numbers separated by spaces
+input_string = input("enter a list of numbers separated by spaces: ")
+
+# Split the input string  into an array of strings with space as the delimiter
+num_strings = input_string.split()
+
+# Convert the array of strings into an array of integers
+num_array = [int(num_string) for num_string in num_strings]
+
+# Print the sum of the numbers
+print("Sum: ", sum(num_array))
+
+# Print the product of the numbers
+print("Product: ", product(num_array))
